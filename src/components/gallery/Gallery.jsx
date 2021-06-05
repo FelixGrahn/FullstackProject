@@ -23,6 +23,7 @@ const Gallery = () => {
     async function FetchHamsters() {
       console.log("Do Heroku Reach here? line 24 in gallery");
         const response = await fetch("/hamsters", { method: 'GET'})
+        console.log("Do Heroku Reach here? line 26 in gallery");
         return await response.json()
       }
     
