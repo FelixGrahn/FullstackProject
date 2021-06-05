@@ -24,7 +24,7 @@ const Gallery = () => {
       console.log("Do Heroku Reach here? line 24 in gallery");
         const response = await fetch("/hamsters", { method: 'GET'})
         console.log("Do Heroku Reach here? line 26 in gallery");
-        console.log("basic fetch " + response + " och fetch.json " + response.json());
+        console.log("basic fetch " + response + " och fetch.json ");
         return await response.json()
       }
     
