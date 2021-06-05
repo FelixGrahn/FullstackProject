@@ -1,0 +1,11 @@
+.BattleWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: darkgrey;
+}
+.BattleBox {
+    background-color: lightgray;
+    border: darkslategray 1px solid;
+    padding: 1%;
+}

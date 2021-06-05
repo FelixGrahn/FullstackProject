@@ -1,0 +1,27 @@
+.Gallery {
+    display: grid;
+    justify-items: stretch;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+    row-gap: 0.5em;
+    margin: 0.5em auto;
+    width: 80%;
+  }
+  .GalleryItem {
+    background-color: lightgray;
+    border: darkslategray 1px solid;
+    padding: 1%;
+  }
+  .GalleryItem:hover {
+    background-color: darkgrey;
+  }
+  .DarkBackground {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }

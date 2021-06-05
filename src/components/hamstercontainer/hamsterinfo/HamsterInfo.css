@@ -1,0 +1,26 @@
+.HamsterInfoBox {
+	top: 5rem;
+	position: fixed;
+	max-width: 30rem;
+	box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.5);
+	background-color: #8AD2C0;
+	border-radius: 5px;
+  }
+  
+  .HamsterInfoBox div {
+    text-align: center;
+    padding-top: 1%;
+  }
+  
+  .HamsterInfoBox div p {
+    padding-top: 1%;
+  }
+  
+  .HamsterInfoBackgroundImage {
+    margin: 1.5em;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    height: 14rem;
+    width: 23rem;
+  }
