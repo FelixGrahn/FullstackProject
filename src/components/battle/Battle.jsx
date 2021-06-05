@@ -132,6 +132,7 @@ const Battle = () => {
     }
 
 	async function getRandomHamster() {
+        console.log("Do Heroku Reach here? line 135 in Battle");
 		const response = await fetch("/hamsters/random", { method: 'GET' })
 		const hamster = await response.json()
 		return hamster
